@@ -1,0 +1,14 @@
+{
+  "year_regex": "(\\d{4})年",
+  "month_regex": "(\\d{1,2})月",
+  "exam_type_rules": [
+    {"pattern": "浙江", "type": "自主命题"},
+    {"pattern": "全国|新课标", "type": "全国新高考Ⅰ卷"}
+  ],
+  "file_type_rules": [
+    {"pattern": "读后续写解析", "type": "读后续写解析"},
+    {"pattern": "解析卷|解析", "type": "解析"},
+    {"pattern": "空白", "type": "空白卷"},
+    {"pattern": "听力音频|听力", "type": "听力"}
+  ]
+}
